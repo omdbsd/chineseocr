@@ -1,9 +1,8 @@
 name: Build and Push
 
+# Configure Manual Trigger
 on:
-  push:
-    branches:
-      - app
+  workflow_dispatch:
 
 jobs:
   build-and-push:
