@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu
 MAINTAINER https://github.com/chineseocr/chineseocr
 LABEL version="1.0"
 EXPOSE 8080
